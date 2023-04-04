@@ -12,7 +12,7 @@ function mintNFT (_name, _age, _sex, _address) {
 }
 function listNFTs () {
  for (let i = 0; i < NFTs.length; i++) {
- console.log("\nID: \t\t" + (i + 1));
+ console.log("\nStudent: \t" + (i + 1));
  console.log("Name: \t\t" + NFTs[i].name);
  console.log("Age: \t\t" + NFTs[i].age);
  console.log("Sex: \t\t" + NFTs[i].sex);
